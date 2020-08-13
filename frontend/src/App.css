@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+@keyframes loader {
+    100% {transform: rotate(360deg);}
+
+}
+
+@keyframes peos {
+    25% {transform: rotate(-90deg);}
+}
+
+
+#searchIndicator {
+    font-family: 'Vidaloka', serif;
+}
+
+*:focus {
+    outline: none !important;
+    box-shadow: none !important;
+
+}
+
+.main li {
+    list-style: none;
+    padding: 5px;
+    display: inline;
+}
+
+.main h3 {
+    font-family: MuseoModerno;
+}
+
+.main kbd {
+    color: #ffffff;
+}
+
+
+@media only screen and (max-width: 897px) {
+    .more {
+        visibility: hidden;
+    }
+}
+
+
+.fa.fa-arrows {
+    animation: loader 3s infinite;
+    animation-play-state: paused;      
+}
+
+
+.fa.fa-arrows:active,
+.fa.fa-arrows:focus,
+.fa.fa-arrows:hover {
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+.fa.fa-arrows::after {
+    animation: loader 3s infinite;
+    animation-fill-mode: backwards;
+
+}

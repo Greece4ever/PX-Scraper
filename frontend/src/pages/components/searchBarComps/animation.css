@@ -1,0 +1,27 @@
+@keyframes spinning {
+    0% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.tooltip {
+    pointer-events: none;
+    user-select: none;
+
+}
+
+.tooltip-inner {
+    background-color: rgb(2, 12, 17) !important;
+    max-width: 300px;
+    /* If max-width does not work, try using width instead */
+    width: 300px; 
+}
+
+.fixed-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+

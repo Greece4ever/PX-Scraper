@@ -69,7 +69,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             #Accessing the react build
-            os.path.join(BASE_DIR,"px-space-frontend/build")
+            os.path.join(BASE_DIR,"frontend/build")
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -96,7 +96,7 @@ DATABASES = {
         'USER' : 'postgres',
         'PASSWORD' : os.environ.get("POSTGRES_PASSWORD"),
         'HOST' : 'os.environ.get("POSTGRES_SERVER")'
-    }
+    }   
 }
 
 
@@ -159,7 +159,7 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
     #same here 
-    os.path.join(BASE_DIR,"px-space-frontend/build/static")
+    os.path.join(BASE_DIR,"frontend/build/static")
 ]
 
 

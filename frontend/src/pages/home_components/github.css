@@ -1,0 +1,20 @@
+
+.Github {
+    border-radius: 2px;
+    color: #ffffff !important;
+    background-color: rgb(49, 50, 53);
+    border: 0;
+}
+.row.git {
+    background-color: rgb(49, 50, 53);
+    text-align: center;
+    width: 172px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: #ffffff;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+
+

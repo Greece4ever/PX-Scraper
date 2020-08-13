@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+.or {
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    font-size: 30px;
+}
+
+
+@media only screen and (max-width: 494px) {
+    .or {
+        height: 0 !important;
+        width: 0 !important;
+        position:absolute;
+        visibility: hidden;
+    }
+    .row {
+        margin-right: 5px !important;
+
+    }
+
+    .google-login {
+        margin-left: 5px !important;
+    }
+
+
+  }
+  
+
+  @media only screen and (max-width: 387px) {
+    .google-login {
+        float: none;
+        width: 130px !important;
+
+    }
+    
+    .row {
+        float: none;
+        width: 130px;
+        height: 65px;
+
+    }
+
+  }
+
+
+
+
+@media only screen and (max-width: 350px) {
+    .btn.btn-primary.poutsapeos {
+      font-size: 13.5px;
+    }
+  }
+  
+
+
+
+  @media only screen and (max-width: 310px) {
+    .btn.btn-primary.poutsapeos {
+      font-size: 12px;
+    }
+  }
+  
+
+.kbd {
+    font-size: 69%;
+}

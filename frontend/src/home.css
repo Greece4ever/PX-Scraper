@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Fredericka+the+Great&family=Poiret+One&display=swap');
+
+@keyframes color {
+    25% {color: yellowgreen;}
+    50% {color: rgb(6, 175, 105);}
+    75% {color :rgb(6, 127, 175)}
+    100% {color: rgb(91, 19, 124);}
+}
+
+
+@media only screen and (max-width: 989px) {
+    .display-4.headerlogo    {
+      margin-right: "100px";
+    }
+    
+    .nav-link {
+        margin-left: 1px;
+    }
+}

@@ -1,0 +1,35 @@
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.keywords {
+    font-size: 16px;
+}
+
+
+.kwargs {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+
+.img_input:hover {
+    opacity: 0.7;
+}
+
+@media only screen and (max-width: 920px) {
+    .keywords {
+        font-size: 1.5vw;
+    }
+
+}
+
+@media only screen and (max-width: 662px) {
+    .keywords {
+        font-size: 10px;
+    }
+
+}
+
