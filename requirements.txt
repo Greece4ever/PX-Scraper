@@ -1,0 +1,10 @@
+#Modules Needed for the project to work
+Django==3.0.8
+cloudscraper==1.2.44
+requests==2.23.0
+beautifulsoup4==4.9.1
+djangorestframework==3.11.1
+secrets==1.0.2
+lxml==4.5.2
+psycopg2==2.8.5
+Pillow==7.1.2
