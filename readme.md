@@ -1,10 +1,10 @@
-# React-Django-Integration-Project
+# PX-Scraper
 
 This is the development source code that references this [deployed website](https://myscarpeapp.herokuapp.com)
 
 The whole project relies on the file [scraper.py](https://github.com/Greece4ever/React-Django-Integration-Project/blob/master/api/scraper.py) witch makes use of python's `HTTP Requests` and `bs4` modules scraping a specified domain an then returns a JSON object response that looks like this
 
-```
+```js
 {
    "url":"https://www.youtube.com/watch?v=dQw4w9WgXcQ",
    "title":"Rick Astley - Never Gonna Give You Up (Video)",
