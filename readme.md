@@ -40,11 +40,11 @@ This will most likely run on all existing versions of django but I know that it 
 
 In your `React APP`
 
-```
+```sh
 yarn run build
 ```
 or with npm
-```
+```sh
 npm run build
 ```
 This will Generate a file structure that will look like this
@@ -64,7 +64,7 @@ To connect this with `Django`
 
 - [Settings.py](https://github.com/Greece4ever/React-Django-Integration-Project/blob/master/space/settings.py)
 
-```
+```python
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -78,7 +78,7 @@ TEMPLATES = [
 ```
 and also for the `CSS` and `JS` files
 
-```
+```python
 STATICFILES_DIRS = [
     #Directory to look for static files 
     os.path.join(BASE_DIR,"frontend/build/static")
@@ -90,7 +90,7 @@ Now to configure the routing in the main projcet's [`urls.py`](https://github.co
 
 - [urls.py](https://github.com/Greece4ever/React-Django-Integration-Project/blob/master/space/urls.py)
 
-```
+```python
 from django.urls import path,re_path
 
 urlpatterns = [
